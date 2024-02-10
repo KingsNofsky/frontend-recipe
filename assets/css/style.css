@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+body {
+    
+    /* display: flex;
+    justify-content: center;  */
+    background-color: hsl(330, 100%, 98%);
+}
+
+p {
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+.principal {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    width: 46rem;
+
+    margin-inline: auto; 
+
+    height: 100%;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+    text-align: justify;
+    padding: 35px;
+}
+
+.photo {
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+header>p {
+    margin: 0 0 35px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.preparation {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.preparation>h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 25px;
+    color: hsl(30, 10%, 34%);
+    
+}
+.preparation__point {
+    padding-left: 15px;
+}
+.preparation__point  > span{
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.ingredients>h2 {
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    padding: 20px 0 10px 0;
+}
+
+.ingredients> ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 25px;
+    padding: 0 0 20px 0;
+}
+.ingredients> ul li {
+    padding-left: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+hr {
+    border-top: 1px solid rgb(231, 230, 230);
+}
+
+.instructions {
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+    padding: 30px 0 30px 0;
+}
+
+.instructions> h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%)
+}
+
+.instructions > ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+    padding-left:5px;
+    font-weight: bold;
+}
+
+.instructions> ol li {
+    color: hsl(30, 10%, 34%);
+    padding-left: 10px;
+    font-weight: 100;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.instructions>ol li span {
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition {
+    padding-top: 25px;
+    text-align: left;
+    color: hsl(30, 10%, 34%);
+    display: flex;
+    flex-direction: column;
+}
+
+.nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+}
+
+.nutritionParagraph {
+    padding: 20px 0 25px 0;
+}
+
+.nutrition__all {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.teste {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.huhu {
+    width: 300px;
+    padding-left: 10px;
+    margin-left: 25px;
+    padding-block: 10px;
+}
+
+.grans {
+    width: 300px;
+    margin-left: 25px;
+    padding-block: 10px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.attribution {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
