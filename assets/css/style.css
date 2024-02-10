@@ -4,15 +4,15 @@ body {
     
     /* display: flex;
     justify-content: center;  */
-    background-color: hsl(330, 100%, 98%);
+    background-color: hsl(30, 54%, 90%);
 }
 
 p {
     font-size: 16px;
+    color:hsl(30, 10%, 34%);
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Young Serif', serif;
     font-weight: 400;
 }
@@ -44,7 +44,7 @@ header {
     gap: 30px;
 }
 
-header>p {
+header > p {
     margin: 0 0 35px 0;
 }
 
